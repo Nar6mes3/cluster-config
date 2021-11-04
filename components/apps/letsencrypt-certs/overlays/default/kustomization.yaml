@@ -7,4 +7,4 @@ namespace: letsencrypt-job
 bases:
 - github.com/redhat-cop/gitops-catalog/letsencrypt-certs/base
 resources:
-- sealed-cloud-dns-credentials.yaml
+- cloud-dns-credentials.yaml

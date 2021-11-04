@@ -10,4 +10,4 @@
   value: "admin"
 - op: add
   path: /users/-
-  value: "gnunn@redhat.com"  
+  value: "nmestres@redhat.com"  

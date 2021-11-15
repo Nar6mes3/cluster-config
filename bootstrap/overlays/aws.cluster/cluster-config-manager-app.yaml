@@ -3,13 +3,13 @@ kind: Application
 metadata:
   name: cluster-config-manager
   namespace: openshift-gitops
-  labels:
-    gitops.ownedBy: cluster-config
+  #labels:
+  #  gitops.ownedBy: cluster-config
 spec:
   destination:
     namespace: openshift-gitops
     server: https://kubernetes.default.svc
-  project: cluster-config
+  project: default
   source:
     path: clusters/aws.cluster/argocd/apps/cluster/overlays/default
     repoURL: https://github.com/Nar6mes3/cluster-config.git
